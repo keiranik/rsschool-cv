@@ -1,3 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;/*все секции расположатся сверху вниз*/
+    justify-content: space-between;/*образуется пространство между секциями, низ и верх*/
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 h1 {
     color:blueviolet;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.nav_list-item {
+    list-style: none;
+}
+
+.nav_link {
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
 }
