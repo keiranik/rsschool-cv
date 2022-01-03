@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
     <title>CV</title>
 </head>
 
@@ -13,7 +17,7 @@
         <div class="container">
             <div class="section">
                 <div class="profile">
-                    <h1>Kira Nikonorova</h1>
+                    <h1 class="header_title">Kira Nikonorova</h1>
                     <img class="header_image" src="images/IMG_20210919_133314_847.jpg" alt="Photo">
                 </div>
                 <nav class="nav">
@@ -54,6 +58,7 @@
 
             <section class="section" id="english">
                 <h2 class="section_title">English</h2>
+                <p class="english_text">B1 - Intermediate</p>
 
             </section>
 
@@ -77,6 +82,15 @@
 
             <section class="section" id="code">
                 <h2 class="section_title">Code</h2>
+                <code class="example_of_code">
+                    <pre>
+                    public class CustomMath {
+                        public static int multiply(int a, int b) {
+                            return a*b;
+                        }
+                    }
+                </pre>
+                </code>
 
             </section>
 
@@ -91,14 +105,18 @@
                 <ul class="contacts_list">
                     <li class="contacts_list-item">email: kirsananik@gmail.com</li>
                     <li class="contacts_list-item">discord: keira (keiranik)#5571</li>
-                    <li class="contacts_list-item">GitHub</li>
+                    <li class="contacts_list-item"><a href="https://github.com/keiranik">GitHub</a></li>
                 </ul>
-                <ul class="info_list">
-                    <li class="info_list-item">2022</li>
-                    <li class="info_list-item"><a class="logo" href="https://rs.school/js/">
-                            <logo src="/images/rs_school_js.svg" alt="LogoRSSchool">
-                        </a></li>
-                </ul>
+                <div class="info">
+                    <ul class="info_list">
+                        <li class="info_list-item">2022</li>
+                        <li class="info_list-item">
+                            <a href="https://rs.school/js/">
+                                <img class="footer_image" src="https://rs.school/images/rs_school_js.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
         </div>
