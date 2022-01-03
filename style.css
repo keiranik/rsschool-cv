@@ -7,11 +7,13 @@ body {
     flex-direction: column;/*все секции расположатся сверху вниз*/
     justify-content: space-between;/*образуется пространство между секциями, низ и верх*/
     align-items: center;
+    flex-grow: 1;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 h1 {
@@ -21,24 +23,43 @@ h1 {
 .profile {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .header_image {
+    display: block;
     width: 200px;
     height: 130px;
+    border-radius: 20px;
 }
 
 .nav_list {
     display: flex;
-    align-items: center;
+    justify-content :center;
+
 }
 
 .nav_list-item {
-    list-style: none;
+    list-style-type: none;
+    border: 1px solid black;
 }
 
 .nav_link {
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 12px;
     line-height: 50px;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;/*все элементы одного размера*/
+}
+
+.section {
+    border-bottom: 2px solid rgb(78, 1, 78);
+}
+
+#contacts {
+    border-bottom: none;
 }
