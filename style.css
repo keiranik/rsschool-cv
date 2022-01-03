@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;/*все секции расположатся сверху вниз*/
     justify-content: space-between;/*образуется пространство между секциями, низ и верх*/
+    align-items: center;
 }
 
 .container {
@@ -15,6 +16,16 @@ body {
 
 h1 {
     color:blueviolet;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.header_image {
+    width: 200px;
+    height: 130px;
 }
 
 .nav_list {
